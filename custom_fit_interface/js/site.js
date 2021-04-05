@@ -101,6 +101,7 @@ function getMeasurements(){
 		"hips":$('#hips').val()*10,
 		"waistToHips":$('#waisttohips').val()*10
 	}
+	$('#copymeasure').val(JSON.stringify(measurements));
 	return measurements
 }
 
